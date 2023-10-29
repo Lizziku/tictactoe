@@ -7,12 +7,13 @@
 let square = getElementsByClassName("square");
 let imgx = getElementById("img");
 
-function openX() {
-    var imgx = document.getElementById("img");
-    if (img.style.display === "none") {
-        img.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
+function openX(ku,viri) {
+    console.log(ku,viri)
+    // var imgx = document.getElementById("img");
+    // if (imgx.style.display === "none") {
+    //     imgx.style.display = "block";
+    // } else {
+    //     x.style.display = "none";
+    // }
 }
 
