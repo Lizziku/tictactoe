@@ -4,16 +4,25 @@
 //     document.getElementById("imgx").style.display = block;
 // }
 
-let square = getElementsByClassName("square");
-let imgx = getElementById("img");
+let square = document.getElementsByClassName("square");
+let imgx1 = document.getElementById("imgx1");
+let imgx2 = document.getElementById("imgx2");
+let imgx3 = document.getElementById("imgx3");
+let imgx4 = document.getElementById("imgx4");
+let imgx5 = document.getElementById("imgx5");
+let imgx6 = document.getElementById("imgx6");
+let imgx7 = document.getElementById("imgx7");
+let imgx8 = document.getElementById("imgx8");
+let imgx9 = document.getElementById("imgx9");
+let displayNone = document.getElementsByClassName("displaynone");
 
-function openX(ku,viri) {
-    console.log(ku,viri)
-    // var imgx = document.getElementById("img");
-    // if (imgx.style.display === "none") {
-    //     imgx.style.display = "block";
-    // } else {
-    //     x.style.display = "none";
+function openX(squareNumber) {
+    console.log(squareNumber)
+
+
+    // if (squareNumber = 1) {
+    //     imgx1.classList.remove("displaynone");
     // }
 }
 
+console.log(imgx1);
